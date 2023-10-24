@@ -9,6 +9,5 @@ import UIKit
 
 class StopwatchViewController: UIViewController {
     
-    view.backgroundColor = UIColor.yellow
-    
+       
 }

@@ -9,23 +9,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="5qO-E6-iZr">
             <objects>
-                <viewController id="5jg-WU-7Q0" sceneMemberID="viewController">
+                <viewController id="5jg-WU-7Q0" customClass="MainViewController" customModule="Neobis_iOS_StopWatch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yAI-kT-gsa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2n-Ee-moJ">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2n-Ee-moJ" userLabel="Timer Container View">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <connections>
                                     <segue destination="gNe-wm-fmC" kind="embed" id="y3V-ul-R2d"/>
                                 </connections>
                             </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qdn-dQ-nhY">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdn-dQ-nhY" userLabel="Stopwatch Container View">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="V1T-Qa-Cjt" kind="embed" id="ldo-uU-TKI"/>
                                 </connections>
@@ -34,10 +33,14 @@
                         <viewLayoutGuide key="safeArea" id="fgg-K1-uAZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Y2n-Ee-moJ" firstAttribute="top" secondItem="yAI-kT-gsa" secondAttribute="top" id="DWW-dv-Nha"/>
-                            <constraint firstItem="fgg-K1-uAZ" firstAttribute="trailing" secondItem="Y2n-Ee-moJ" secondAttribute="trailing" id="Wpc-WS-PRK"/>
-                            <constraint firstItem="Y2n-Ee-moJ" firstAttribute="leading" secondItem="fgg-K1-uAZ" secondAttribute="leading" id="ZWV-Bi-KtS"/>
-                            <constraint firstAttribute="bottom" secondItem="Y2n-Ee-moJ" secondAttribute="bottom" id="lgK-qY-GO1"/>
+                            <constraint firstItem="Qdn-dQ-nhY" firstAttribute="leading" secondItem="yAI-kT-gsa" secondAttribute="leading" id="1tW-5t-2ou"/>
+                            <constraint firstAttribute="trailing" secondItem="Y2n-Ee-moJ" secondAttribute="trailing" id="BBZ-xt-2yG"/>
+                            <constraint firstAttribute="bottom" secondItem="Y2n-Ee-moJ" secondAttribute="bottom" id="RdZ-an-iTW"/>
+                            <constraint firstItem="Qdn-dQ-nhY" firstAttribute="top" secondItem="yAI-kT-gsa" secondAttribute="top" id="bij-dl-kLC"/>
+                            <constraint firstAttribute="trailing" secondItem="Qdn-dQ-nhY" secondAttribute="trailing" id="eFT-dL-uhp"/>
+                            <constraint firstItem="Y2n-Ee-moJ" firstAttribute="leading" secondItem="yAI-kT-gsa" secondAttribute="leading" id="rh7-IY-gg3"/>
+                            <constraint firstItem="Y2n-Ee-moJ" firstAttribute="top" secondItem="yAI-kT-gsa" secondAttribute="top" id="uBH-ZI-fXn"/>
+                            <constraint firstAttribute="bottom" secondItem="Qdn-dQ-nhY" secondAttribute="bottom" id="vyQ-Ps-lcy"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -14,6 +14,7 @@
 		BA007E2B2AE63A21002E9791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA007E292AE63A21002E9791 /* LaunchScreen.storyboard */; };
 		BA007E332AE653D0002E9791 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA007E322AE653D0002E9791 /* TimerViewController.swift */; };
 		BA007E352AE653EC002E9791 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA007E342AE653EC002E9791 /* StopwatchViewController.swift */; };
+		BA007E372AE80072002E9791 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA007E362AE80072002E9791 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BA007E2C2AE63A21002E9791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA007E322AE653D0002E9791 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		BA007E342AE653EC002E9791 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		BA007E362AE80072002E9791 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				BA007E1E2AE63A20002E9791 /* AppDelegate.swift */,
 				BA007E202AE63A20002E9791 /* SceneDelegate.swift */,
+				BA007E362AE80072002E9791 /* MainViewController.swift */,
 				BA007E322AE653D0002E9791 /* TimerViewController.swift */,
 				BA007E342AE653EC002E9791 /* StopwatchViewController.swift */,
 				BA007E242AE63A20002E9791 /* Main.storyboard */,
@@ -145,6 +148,7 @@
 				BA007E352AE653EC002E9791 /* StopwatchViewController.swift in Sources */,
 				BA007E1F2AE63A20002E9791 /* AppDelegate.swift in Sources */,
 				BA007E212AE63A20002E9791 /* SceneDelegate.swift in Sources */,
+				BA007E372AE80072002E9791 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
