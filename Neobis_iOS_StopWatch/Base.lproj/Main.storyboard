@@ -41,7 +41,7 @@
                                     <action selector="segmentControlValueChanged:" destination="gNe-wm-fmC" eventType="valueChanged" id="5QP-kH-31N"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 : 00 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKw-hM-gDm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKw-hM-gDm">
                                 <rect key="frame" x="66.666666666666686" y="224" width="260" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="23c-cu-JDN"/>
@@ -147,6 +147,17 @@
             <point key="canvasLocation" x="-370.2290076335878" y="667.6056338028169"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="4he-mo-Rvk">
+            <size key="intrinsicContentSize" width="49.666666666666664" height="34.333333333333336"/>
+        </designable>
+        <designable name="huA-Vc-RjO">
+            <size key="intrinsicContentSize" width="49.666666666666664" height="34.333333333333336"/>
+        </designable>
+        <designable name="j4X-iC-w0N">
+            <size key="intrinsicContentSize" width="49.666666666666664" height="34.333333333333336"/>
+        </designable>
+    </designables>
     <resources>
         <image name="pause.circle.fill" catalog="system" width="128" height="123"/>
         <image name="play.circle.fill" catalog="system" width="128" height="123"/>

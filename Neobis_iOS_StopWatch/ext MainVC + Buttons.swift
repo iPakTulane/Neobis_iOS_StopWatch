@@ -1,16 +1,16 @@
 //
-//  ext MainVC + buttons.swift
+//  ext MainVC + Buttons.swift
 //  Neobis_iOS_StopWatch
 //
-//  Created by iPak Tulane on 29/10/23.
+//  Created by Igor Pak on 29/10/23.
 //
 
 import UIKit
 
-
 extension MainViewController {
     
     func setupButtonsViews() {
+    
         let buttonSize = CGSize(width: 80, height: 80)
         for button in [playButton, pauseButton, stopButton] {
             if let button = button {
