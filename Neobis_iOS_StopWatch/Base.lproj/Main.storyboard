@@ -58,13 +58,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-j0-9NQ">
-                                <rect key="frame" x="46.666666666666657" y="600" width="300" height="80"/>
+                                <rect key="frame" x="29.666666666666657" y="600" width="334" height="91.333333333333371"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huA-Vc-RjO">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="91.333333333333329" height="91.333333333333329"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="5Cz-mn-bGa"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Dp1-J7-GPa"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="huA-Vc-RjO" secondAttribute="height" multiplier="50:50" id="leg-ZP-Mhb" userLabel="aspect = 50:50"/>
                                         </constraints>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -78,11 +76,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4he-mo-Rvk">
-                                        <rect key="frame" x="110" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="121.33333333333334" y="0.0" width="91.333333333333343" height="91.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="4he-mo-Rvk" secondAttribute="height" multiplier="50:50" id="ICl-oJ-PzA" userLabel="aspect = 50:50"/>
-                                            <constraint firstAttribute="height" constant="80" id="NVk-9W-3zm"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="ZL0-b8-NmP"/>
                                         </constraints>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -95,11 +91,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4X-iC-w0N">
-                                        <rect key="frame" x="220" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="242.66666666666666" y="0.0" width="91.333333333333343" height="91.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="j4X-iC-w0N" secondAttribute="height" multiplier="50:50" id="1hx-qb-VkI" userLabel="aspect = 50:50"/>
-                                            <constraint firstAttribute="height" constant="80" id="EIJ-3T-TDX"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="ujJ-Wr-a1d"/>
                                         </constraints>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>

@@ -13,12 +13,6 @@
 		BA007E282AE63A21002E9791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA007E272AE63A21002E9791 /* Assets.xcassets */; };
 		BA007E2B2AE63A21002E9791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA007E292AE63A21002E9791 /* LaunchScreen.storyboard */; };
 		BA007E372AE80072002E9791 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA007E362AE80072002E9791 /* MainViewController.swift */; };
-		BAD2B95E2AEE7A25006C9E8D /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2B95D2AEE7A25006C9E8D /* AppMode.swift */; };
-		BAD2B9602AEE8365006C9E8D /* ext MainVC + Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2B95F2AEE8365006C9E8D /* ext MainVC + Picker.swift */; };
-		BAD2B9622AEE8420006C9E8D /* ext MainVC + Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2B9612AEE8420006C9E8D /* ext MainVC + Play.swift */; };
-		BAD2B9642AEE8434006C9E8D /* ext MainVC + Pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2B9632AEE8434006C9E8D /* ext MainVC + Pause.swift */; };
-		BAD2B9662AEE8446006C9E8D /* ext MainVC + Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2B9652AEE8446006C9E8D /* ext MainVC + Stop.swift */; };
-		BAD2B9682AEE84A3006C9E8D /* ext MainVC + SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2B9672AEE84A3006C9E8D /* ext MainVC + SegmentControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +24,6 @@
 		BA007E2A2AE63A21002E9791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA007E2C2AE63A21002E9791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA007E362AE80072002E9791 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		BAD2B95D2AEE7A25006C9E8D /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
-		BAD2B95F2AEE8365006C9E8D /* ext MainVC + Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ext MainVC + Picker.swift"; sourceTree = "<group>"; };
-		BAD2B9612AEE8420006C9E8D /* ext MainVC + Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ext MainVC + Play.swift"; sourceTree = "<group>"; };
-		BAD2B9632AEE8434006C9E8D /* ext MainVC + Pause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ext MainVC + Pause.swift"; sourceTree = "<group>"; };
-		BAD2B9652AEE8446006C9E8D /* ext MainVC + Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ext MainVC + Stop.swift"; sourceTree = "<group>"; };
-		BAD2B9672AEE84A3006C9E8D /* ext MainVC + SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ext MainVC + SegmentControl.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +59,6 @@
 				BA007E1E2AE63A20002E9791 /* AppDelegate.swift */,
 				BA007E202AE63A20002E9791 /* SceneDelegate.swift */,
 				BA007E362AE80072002E9791 /* MainViewController.swift */,
-				BAD2B95F2AEE8365006C9E8D /* ext MainVC + Picker.swift */,
-				BAD2B9612AEE8420006C9E8D /* ext MainVC + Play.swift */,
-				BAD2B9632AEE8434006C9E8D /* ext MainVC + Pause.swift */,
-				BAD2B9652AEE8446006C9E8D /* ext MainVC + Stop.swift */,
-				BAD2B9672AEE84A3006C9E8D /* ext MainVC + SegmentControl.swift */,
-				BAD2B95D2AEE7A25006C9E8D /* AppMode.swift */,
 				BA007E242AE63A20002E9791 /* Main.storyboard */,
 				BA007E272AE63A21002E9791 /* Assets.xcassets */,
 				BA007E292AE63A21002E9791 /* LaunchScreen.storyboard */,
@@ -156,14 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD2B9642AEE8434006C9E8D /* ext MainVC + Pause.swift in Sources */,
-				BAD2B95E2AEE7A25006C9E8D /* AppMode.swift in Sources */,
-				BAD2B9602AEE8365006C9E8D /* ext MainVC + Picker.swift in Sources */,
 				BA007E1F2AE63A20002E9791 /* AppDelegate.swift in Sources */,
 				BA007E212AE63A20002E9791 /* SceneDelegate.swift in Sources */,
-				BAD2B9622AEE8420006C9E8D /* ext MainVC + Play.swift in Sources */,
-				BAD2B9662AEE8446006C9E8D /* ext MainVC + Stop.swift in Sources */,
-				BAD2B9682AEE84A3006C9E8D /* ext MainVC + SegmentControl.swift in Sources */,
 				BA007E372AE80072002E9791 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
