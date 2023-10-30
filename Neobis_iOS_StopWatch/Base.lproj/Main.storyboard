@@ -41,14 +41,20 @@
                                     <action selector="segmentControlValueChanged:" destination="gNe-wm-fmC" eventType="valueChanged" id="5QP-kH-31N"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKw-hM-gDm">
-                                <rect key="frame" x="66.666666666666686" y="224" width="260" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKw-hM-gDm">
+                                <rect key="frame" x="47.333333333333343" y="224" width="298.66666666666663" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="23c-cu-JDN"/>
                                     <constraint firstAttribute="height" constant="70" id="H75-8y-JBV"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="00:00:00">
+                                        <attributes>
+                                            <font key="NSFont" size="72" name="Avenir-Heavy"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-j0-9NQ">
@@ -65,6 +71,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <imageReference key="image" image="stop.circle.fill" catalog="system" symbolScale="large"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="stopButtonTapped:" destination="gNe-wm-fmC" eventType="touchUpInside" id="lPq-A2-LvC"/>
@@ -81,7 +88,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <imageReference key="image" image="pause.circle.fill" catalog="system" symbolScale="large"/>
-                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="pauseButtonTapped:" destination="gNe-wm-fmC" eventType="touchUpInside" id="CgN-hA-3BL"/>
@@ -98,6 +105,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <imageReference key="image" image="play.circle.fill" catalog="system" symbolScale="large"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="playButtonTapped:" destination="gNe-wm-fmC" eventType="touchUpInside" id="eiX-wS-IxR"/>
@@ -147,17 +155,6 @@
             <point key="canvasLocation" x="-370.2290076335878" y="667.6056338028169"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="4he-mo-Rvk">
-            <size key="intrinsicContentSize" width="49.666666666666664" height="34.333333333333336"/>
-        </designable>
-        <designable name="huA-Vc-RjO">
-            <size key="intrinsicContentSize" width="49.666666666666664" height="34.333333333333336"/>
-        </designable>
-        <designable name="j4X-iC-w0N">
-            <size key="intrinsicContentSize" width="49.666666666666664" height="34.333333333333336"/>
-        </designable>
-    </designables>
     <resources>
         <image name="pause.circle.fill" catalog="system" width="128" height="123"/>
         <image name="play.circle.fill" catalog="system" width="128" height="123"/>
