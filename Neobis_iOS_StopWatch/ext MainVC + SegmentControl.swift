@@ -37,12 +37,12 @@ extension MainViewController {
         
         stopTimerAndResetUI()
         
-        if (currentMode == AppMode.Timer) {
-            currentMode = AppMode.Stopwatch
+        if (currentMode == AppMode.timer) {
+            currentMode = AppMode.stopwatch
             digitsPicker.isHidden = false
             logoImage.image = UIImage(systemName: "stopwatch")
         } else {
-            currentMode = AppMode.Timer
+            currentMode = AppMode.timer
             digitsPicker.isHidden = true
             logoImage.image = UIImage(systemName: "timer")
         }

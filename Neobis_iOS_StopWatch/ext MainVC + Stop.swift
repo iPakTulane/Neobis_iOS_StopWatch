@@ -20,7 +20,7 @@ extension MainViewController {
         isPaused = false
         isStopped = true
         
-        timeOnRunning = nil
+        elapsedTimeComponents = nil
         digitsLabel.text = "00:00:00"
         
         if isStopped {
@@ -35,7 +35,7 @@ extension MainViewController {
             }
         }
         
-        if currentMode == .Stopwatch {
+        if currentMode == .stopwatch {
             digitsPicker.isHidden = false
         }
     }

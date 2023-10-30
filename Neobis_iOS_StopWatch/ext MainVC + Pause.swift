@@ -11,7 +11,7 @@ extension MainViewController {
     
     @IBAction func pauseButtonTapped(_ sender: UIButton) {
         if isPlaying && !isPaused{
-            timeOnRunning = Calendar.current.dateComponents([.day, .hour, .minute, .second], from: Date(), to: (startedTime))
+            elapsedTimeComponents = Calendar.current.dateComponents([.day, .hour, .minute, .second], from: Date(), to: (playingTime))
             timer.invalidate()
             isPaused = true
             isPlaying = false

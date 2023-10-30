@@ -8,6 +8,6 @@
 import Foundation
 
 enum AppMode {
-    case Timer
-    case Stopwatch
+    case timer
+    case stopwatch
 }

@@ -37,7 +37,7 @@ extension MainViewController: UIPickerViewDataSource, UIPickerViewDelegate {
         let second = Int(pickerView.selectedRow(inComponent: 2))
         
         digitsLabel.text = "\(String(format: "%02d", hour)):\(String(format: "%02d", minute)):\(String(format: "%02d", second))"
-        givenTime = TimeInterval(hour * secondsInHour + minute * 60 + second)
+        givenTimeInterval = TimeInterval(hour * secondsInHour + minute * 60 + second)
     }
     
 }

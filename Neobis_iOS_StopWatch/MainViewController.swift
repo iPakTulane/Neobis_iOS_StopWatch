@@ -17,15 +17,14 @@ class MainViewController: UIViewController {
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
     
-    var currentMode = AppMode.Timer
+    var currentMode = AppMode.timer
     var timer: Timer!
-    var startedTime: Date!
-    var timeOnRunning: DateComponents!
+    var playingTime: Date!
+    var elapsedTimeComponents: DateComponents!
     var isPlaying = false
     var isPaused = false
     var isStopped = false
-    var givenTime: TimeInterval! = TimeInterval(0)
-    
+    var givenTimeInterval: TimeInterval! = TimeInterval(0)
     let secondsInHour = 3600
     let timerInterval = 0.1
     
