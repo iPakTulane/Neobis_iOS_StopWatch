@@ -5,7 +5,7 @@ The StopWatch project is a simple iOS application designed to provide two main f
 
 ## Design
 
-![stopwatch2](https://github.com/iPakTulane/Neobis_iOS_StopWatch/assets/117035210/c335f9e1-653a-4da1-8c66-e7afd40c1dc6)
+<img width="200" height="400" align="center" src="https://github.com/iPakTulane/Neobis_iOS_StopWatch/assets/117035210/c335f9e1-653a-4da1-8c66-e7afd40c1dc6"/>
 
 ## Timer
 The timer mode also features three buttons, a field for displaying the remaining time, and an input field for setting the desired time. The buttons in timer mode are:
